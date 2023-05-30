@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    background:#2c3e50;
+    color:#ecf0f1;
+}
+
+.pelicula{
+    width:90%;
+    max-width:62.5em;
+	margin:1.25em auto;
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap:1.25em;
+    margin-bottom:4.375em;
+    margin-left:11.875em;
+}
+
+.card{
+    width:12.5em;
+    background:rgba(0, 0, 0, .3);
+    padding:0.625em;
+    border-radius:0.3125em;
+}
+
+.poster{
+    display: block;
+    height:15.625em;
+    margin:0 auto;
+    border-radius:0.3125em;
+}
+
+.titulo{
+    font-size:1em;
+    text-align:center;
+    margin-top:0.625em;
+    text-decoration:none;
+    color:#ecf0f1;
+}
+
+.botones{
+    position: fixed;
+	bottom:0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	gap:30em;
+	padding:0.625em;
+	background: #080e1f;
+}
+
+.btn{
+    cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    height:1.875em;
+	width:9.375em;
+    border:none;
+    background: #033e68;
+    color:#ecf0f1;
+    transition: all .3s;
+    font-size:0.875em;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    background:#3498db;
+    transform: scale(1.1);
+}
